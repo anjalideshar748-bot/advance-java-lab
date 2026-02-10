@@ -1,19 +1,19 @@
 //Write a Java program that works as a simple calculator. Use a grid layout to arrange buttons for the digits and for the +, -, , % operations. Add a text field to display the result. Handle any possible exceptions like divided by zero.
 
 // Import necessary libraries for GUI components and event handling
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 // Define the Calculator class that extends JFrame and implements ActionListener
-public class Calculator extends JFrame implements ActionListener {
+public class que1 extends JFrame implements ActionListener {
     private JTextField display; // Text field to display input and results
     private double firstNumber, secondNumber, result; // Variables to store numbers and result
     private String operator; // Variable to store the current operator
 
     // Constructor to initialize the calculator
-    public Calculator() {
+    public que1() {
         setTitle("Calculator"); // Set the title of the window
         setSize(350, 500); // Set the size of the window (increased height for better display)
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close the application when the window is closed
@@ -109,6 +109,6 @@ public class Calculator extends JFrame implements ActionListener {
     // Main method to launch the calculator
     public static void main(String[] args) {
         // Use SwingUtilities.invokeLater to ensure the GUI runs on the Event Dispatch Thread
-        SwingUtilities.invokeLater(() -> new Calculator().setVisible(true));
+        SwingUtilities.invokeLater(() -> new que1().setVisible(true));
     }
 }

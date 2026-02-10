@@ -1,6 +1,6 @@
 import java.rmi.*;
 
-public interface Calculator extends Remote {
+public interface que5calculator extends Remote {
     double add(double a, double b) throws RemoteException;
     double subtract(double a, double b) throws RemoteException;
     double multiply(double a, double b) throws RemoteException;
