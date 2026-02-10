@@ -1,12 +1,12 @@
 
 //	Write a program to demonstrate the use of JSwing Components and add layout managers to it.
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
-public class JSwingCom extends JFrame {
+public class que2 extends JFrame {
 
-    public JSwingCom() {
+    public que2() {
         // Set the title of the JFrame
         setTitle("Swing Components & Layout Managers");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -79,6 +79,6 @@ public class JSwingCom extends JFrame {
         // Run GUI in Event Dispatch Thread for thread safety
         // SwingUtilities.invokeLater(() -> new SwingComponentsDemo());
 
-        JSwingCom obj = new JSwingCom();
+        que2 obj = new que2();
     }
 }
