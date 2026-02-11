@@ -5,9 +5,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Login extends JFrame {
+public class que3 extends JFrame {
 
-    public Login() {
+    public que3() {
         setTitle("Login Page");
         setSize(350, 220);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -47,9 +47,9 @@ public class Login extends JFrame {
 
                 // Simple login validation
                 if (username.equals("nabu") && password.equals("Nepal@123")) {
-                    JOptionPane.showMessageDialog(Login.this, "Login successful!");
+                    JOptionPane.showMessageDialog(que3.this, "Login successful!");
                 } else {
-                    JOptionPane.showMessageDialog(Login.this, "Invalid username or password", "Error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(que3.this, "Invalid username or password", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
@@ -77,7 +77,7 @@ public class Login extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new Login().setVisible(true);
+                new que3().setVisible(true);
             }
         });
     }

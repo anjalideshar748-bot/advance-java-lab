@@ -1,14 +1,14 @@
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class CalculatorClient {
+public class que5calculatorclient {
     public static void main(String[] args) {
         try {
             // Get registry (localhost:1099 by default)
             Registry registry = LocateRegistry.getRegistry("localhost", 1099);
 
             // Lookup the remote object
-            Calculator calc = (Calculator) registry.lookup("CalculatorService");
+            que5calculator calc = (que5calculator) registry.lookup("CalculatorService");
 
             System.out.println("Connected to remote Calculator!");
 

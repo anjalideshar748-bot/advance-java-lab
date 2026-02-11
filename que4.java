@@ -1,7 +1,7 @@
 
 import java.sql.*;
 
-public class JDBC {
+public class que4 {
 
     static final String URL = "jdbc:mysql://localhost:3306/a_java?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kathmandu";
     static final String USER = "root";
@@ -9,6 +9,7 @@ public class JDBC {
 
     public static void createTable() {
         String sql = "CREATE TABLE IF NOT EXISTS Employees (" +
+        
                      "eno INT PRIMARY KEY, " +
                      "ename VARCHAR(50), " +
                      "eDepartment VARCHAR(50), " +

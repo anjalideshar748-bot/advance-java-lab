@@ -1,9 +1,9 @@
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
 
-public class CalculatorImpl extends UnicastRemoteObject implements Calculator {
+public class que5calculatorimpl extends UnicastRemoteObject implements que5calculator {
 
-    protected CalculatorImpl() throws RemoteException {
+    protected que5calculatorimpl() throws RemoteException {
         super();  // Required for UnicastRemoteObject
     }
 
